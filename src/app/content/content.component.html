@@ -1,0 +1,31 @@
+<main class="main">
+  <form [formGroup]="testForm">
+    <h3 class="tui-form__header tui-form__header_margin-top_none">Доступ к Бизону</h3>
+    <tui-input class="tui-form__row" formControlName="userEmail">
+      Введите свой email <input tuiTextfield />
+    </tui-input>
+    <tui-input class="tui-form__row" formControlName="userToken">
+      Введите API токен <input tuiTextfield />
+    </tui-input>
+    <button tuiButton size="m" class="tui-space_vertical-4" type="submit">Сохранить</button>
+  </form>
+  <tui-notification status="warning" class="tui-space_top-4">
+    ВАЖНО!
+    <p>1. В бизон не забывайте нажать сохранить "API-токен", не просто сгенерировать, а обязательно надо нажать
+      СОХРАНИТЬ!</p>
+    <p>2. API Bizon работает через "Страницы регистрации" самого Бизона - они нужны для смены даты, для регистрации
+      пользователей в Bizon. Т.е. если нужна смена даты - в Bizon должна быть создана страница регистрации и к ней
+      должна
+      быть прикреплена коината. Если нужно собирать базу в Bizon, также нужна страница регистрации, плюс подключена
+      услуга
+      "Страницы регистрации".</p>
+  </tui-notification>
+  <div class="guide">
+    <h3 class="guide__heading tui-form__header">Как получить API-токен</h3>
+
+    <iframe class="guide tui-space_vertical-4" width="560" height="315" src="https://www.youtube.com/embed/4Q9-v2L4h3U"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen></iframe>
+  </div>
+</main>

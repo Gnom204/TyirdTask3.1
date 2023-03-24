@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+
+app-root {
+  max-width: 880px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
