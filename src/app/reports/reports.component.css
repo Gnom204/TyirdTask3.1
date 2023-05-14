@@ -1,0 +1,16 @@
+.example-viewport {
+  height: 200px;
+  width: 100%;
+  background-color: #ededed;
+}
+
+.example-item {
+  height: 50px;
+}
+
+.alert {
+  margin: 0 0 0 45px;
+  padding: 2px;
+  border-radius: 5px;
+  background-color: #4ac99b;
+}
