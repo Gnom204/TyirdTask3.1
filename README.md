@@ -1,6 +1,6 @@
-# MyFirstAngularApp
+# Верстка приложения интеграция Битрикс 24 с Bizon365
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.4.
+Проект можно посмотреть по [ссылке](https://gnom204.github.io/TyirdTask3.1/)
 
 ## Development server
 
