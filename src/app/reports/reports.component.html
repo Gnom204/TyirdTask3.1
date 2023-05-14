@@ -1,0 +1,12 @@
+<div>
+  <h2 class="tui-form__header tui-form__header_margin-top_none">Последние отчеты с Bizon365</h2>
+
+  <p>Все отчеты с Bizon, которые есть. Можно выгрузить старые отчеты если их нет в базе или перезагрузить, если вам
+    нужно повторно выгрузить отчет</p>
+  <div class="wrapper">
+    <cdk-virtual-scroll-viewport itemSize="50" class="example-viewport">
+      <div *cdkVirtualFor="let item of items" class="example-item">{{item}}<span class="alert">Есть в базе</span>
+      </div>
+    </cdk-virtual-scroll-viewport>
+  </div>
+</div>
