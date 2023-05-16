@@ -1,0 +1,22 @@
+<form [formGroup]="testForm" class="b-form">
+  <div>
+    <tui-input class="b-form__input" formControlName="userEmail">
+      Шаблон названия сделки <input tuiTextfield />
+    </tui-input>
+  </div>
+  <div>
+    <p class="tui-text_body-s">Выбрать этап воронки, на который выгружать регистрации</p>
+    <tui-input tuiTextfieldSize="m" class="b-form__input" formControlName="userToken">
+      ---- <input tuiTextfield />
+    </tui-input>
+  </div>
+  <tui-text-area class="tui-space_vertical-4" formControlName="testValue">Шаблон примечания</tui-text-area>
+  <p>Если в Bitrix уже есть сделка с так\им контактом, то выбрать с какого этапа двигать сделку на выбранный этап(чтобы
+    выделить несколько зажмите CTRL)</p>
+  <tui-text-area formControlName="testValue2">Шаблон примечания</tui-text-area>
+  <tui-text-area class="tui-space_vertical-4 field-small" formControlName="testValue3">Шаблон примечания
+    2</tui-text-area>
+  <button tuiButton size="m" class="tui-space_vertical-4" type="submit">Сохранить</button>
+  <button tuiButton size="m" appearance="accent" class="tui-space_vertical-4 tui-space_left-4"
+    type="reset">Отмена</button>
+</form>

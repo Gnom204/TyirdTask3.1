@@ -2,21 +2,24 @@
   <h1 class="Logo">LOGO</h1>
   <nav class="header__menu">
     <ul class="header__list">
-      <li class="header__item"><a tuiMode="onLight" class="header__link header__link_dark" tuiLink routerLink="">
+      <li class="header__item"><a [routerLinkActiveOptions]="{exact: true}" tuiMode="onLight"
+          class="header__link header__link_dark" tuiLink routerLinkActive="active" routerLink="/">
           Главная
         </a></li>
-      <li class="header__item"><a class="header__link header__link_dark" tuiMode="onLight" tuiLink
-          routerLink="/reports">
+      <li class="header__item"><a class="header__link header__link_dark" tuiMode="onLight" routerLinkActive="active"
+          tuiLink routerLink="/reports">
           Страница отчетов
         </a></li>
-      <li class="header__item"><a class="header__link header__link_dark" tuiMode="onLight" tuiLink
-          routerLink="/settings">
+      <li class="header__item"><a class="header__link header__link_dark" tuiMode="onLight" routerLinkActive="active"
+          tuiLink routerLink="/settings">
           Настройки
         </a></li>
-      <li class="header__item"><a class="header__link header__link_dark" tuiMode="onLight" tuiLink routerLink="">
-          Link
+      <li class="header__item"><a class="header__link header__link_dark" tuiMode="onLight" routerLinkActive="active"
+          tuiLink routerLink="/shortcodes">
+          Шорткоды
         </a></li>
-      <li class="header__item"><a class="header__link header__link_dark" tuiMode="onLight" tuiLink routerLink="">
+      <li class="header__item"><a class="header__link header__link_dark" tuiMode="onLight" routerLinkActive="active"
+          tuiLink routerLink="#">
           Link
         </a></li>
     </ul>

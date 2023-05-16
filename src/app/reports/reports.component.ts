@@ -9,6 +9,8 @@ import { reports } from '../../data'
 })
 export class ReportsComponent {
   items = Array.from(reports).map((_, i) => `Вебинар ${reports[i].name}*${reports[i].dateConduct} [Данные с бизон пришли ${reports[i].dateComing}]`);
+  // names = Array.from(reports).map((_, i) => `[name] => ${reports[i].name}`);
+  // dates = Array.from(reports).map((_, i) => `[created] => ${reports[i].dateComing}`)
 }
 
 

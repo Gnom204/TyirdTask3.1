@@ -1,11 +1,14 @@
 .example-viewport {
-  height: 200px;
-  width: 100%;
+  height: 300px;
+  max-width: 100%;
   background-color: #ededed;
 }
 
 .example-item {
   height: 50px;
+  cursor: pointer;
+  max-width: 53.9rem;
+  margin: 0 0 10px 0;
 }
 
 .alert {
@@ -13,4 +16,12 @@
   padding: 2px;
   border-radius: 5px;
   background-color: #4ac99b;
+}
+
+.template-container {
+  z-index: 10 !important;
+}
+
+.t-wrapper {
+  z-index: 10 !important;
 }

@@ -23,3 +23,12 @@
 .header__link_dark {
   color: var(--tui-text-01);
 }
+
+.active {
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  transition: background-size .3s;
+}
