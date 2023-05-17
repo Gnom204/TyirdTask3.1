@@ -1,6 +1,6 @@
 # Верстка приложения интеграция Битрикс 24 с Bizon365
 
-Проект можно посмотреть по [ссылке](https://gnom204.github.io/TyirdTask3.1/)
+Проект можно посмотреть по [ссылке](https://disk.yandex.ru/d/Fhs48edeR7WXtg)
 
 ## Development server
 
