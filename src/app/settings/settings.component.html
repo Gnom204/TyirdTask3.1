@@ -22,4 +22,71 @@
     </button>
   </div>
   <router-outlet></router-outlet>
+  <h2>Шорткоды</h2>
+  <p>Нажмите на шорткод, чтобы скопировать в буфер обмена.</p>
+  <div class="container">
+    <div>
+      <h3>Общие</h3>
+      <p class="shortcodeText">{{'{name}'}} - Имя</p>
+      <p class="shortcodeText">{{'{email}'}} - email</p>
+      <p class="shortcodeText">{{'{phone}'}} - телефон отформатированный </p>
+      <p class="shortcodeText">{{'{phone_user}'}} - телефон, как указал
+        пользователь</p>
+      <p class="shortcodeText">{{'{utm_source}'}} - utm_source</p>
+      <p class="shortcodeText">{{'{utm_medium}'}} - utm_medium</p>
+      <p class="shortcodeText">{{'{utm_campaign}'}} - utm_campaign</p>
+      <p class="shortcodeText">{{'{utm_content}'}} - utm_content </p>
+      <p class="shortcodeText">{{'{utm_term}'}} - utm_term</p>
+      <p class="shortcodeText">{{'{roistatid}'}} - roistatid</p>
+      <p class="shortcodeText">{{'{date_add}'}} - дата создания сделки</p>
+      <p class="shortcodeText">{{'{date_add_unix}'}} - дата создания (если в
+        amoCRM у поля тип-дата)
+      </p>
+    </div>
+    <div>
+      <h3>Для регистрации</h3>
+      <p class="shortcodeText">{{'{vebinar_time}'}} - дата и время время вебинара
+        (дд:мм.гггг чч:мм)</p>
+      <p class="shortcodeText">{{'{vebinar_time_hi}'}} - время (чч:мм) вебинара</p>
+      <p class="shortcodeText">{{'{vebinar_time_date}'}} - дата (дд:мм.гггг)
+        вебинара, на которую регистрировался
+        пользователь</p>
+      <p class="shortcodeText">{{'{vebinar_time_unix}'}} - дата вебинара, на
+        которую регистрировался пользователь (если в
+        amoCRM у поля тип-дата)
+      </p>
+      <p class="shortcodeText">{{'{reg_field_*}'}} - произвольное поле, вместо *
+        пишите название поля</p>
+      <p class="shortcodeText">{{'{bizon_url}'}} - индивидуальная ссылка Bizon365</p>
+    </div>
+    <div>
+      <h3>Для отчетов</h3>
+      <p class="shortcodeText">{{'{vizit_vebinar}'}} - был на вебинаре</p>
+      <p class="shortcodeText">{{'{city}'}} - город</p>
+      <p class="shortcodeText">{{'{clickFile}'}} - кликал ли по кнопке</p>
+      <p class="shortcodeText">{{'{clickBanner}'}} - кликал ли по баннеру</p>
+      <p class="shortcodeText">{{'{but_text}'}} - текст на кнопке </p>
+      <p class="shortcodeText">{{'{finished}'}} - присутствовал до конца вебинара</p>
+      <p class="shortcodeText">{{'{webinarld}'}} - id вебинарной комнаты</p>
+      <p class="shortcodeText">{{'{biLminut}'}} - сколько был минут на вебинаре</p>
+      <p class="shortcodeText">{{'{comments}'}} - комментарии на вебинаре</p>
+      <p class="shortcodeText">{{'{view_date_data}'}} - дата вебинара Bizon365
+        (дата без времени)</p>
+      <p class="shortcodeText">{{'{view_date_data_unix}'}} - дата вебинара
+        Bizon365 (если в amoCRM у поля тип-дата)</p>
+      <p class="shortcodeText">{{'{view}'}} - смотрел с (если в amoCRM у поля типдата)
+      </p>
+      <p class="shortcodeText">{{'{viewTill}'}} - досмотрел до (если в amoCRM у
+        поля тип-дата)</p>
+      <p class="shortcodeText">{{'{view_date}'}} - смотрел с (дата текстом)</p>
+      <p class="shortcodeText">{{'{viewTilLdate}'}} - досмотрел до (дата текстом) </p>
+      <p class="shortcodeText">{{'{web_pl}'}} - paraml с Bizon365 </p>
+      <p class="shortcodeText">{{'{web_p2}'}} - param2 c Bizon365</p>
+      <p class="shortcodeText">{{'{web_p3}'}} - рагатЗ c Bizon365</p>
+      <p class="shortcodeText">{{'{report_field_*}'}} - произвольное поле, вместо *
+        пишите название поля</p>
+    </div>
+
+  </div>
 </div>
+<script src="./settings.js"></script>

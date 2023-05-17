@@ -6,3 +6,11 @@
   background-size: 100% 2px;
   transition: background-size .3s;
 }
+
+.shortcodeText {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+}
